@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LacosDeDecisao4 {
+public class exercicio4_202105051056 {
 
 	public static void main(String[] args) {
 		/*

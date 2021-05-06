@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class aula_202105060922 {
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
 		float nota1,nota2,nota3,media,somamedia=0,mediageral;
 		int x;//variável de loop
