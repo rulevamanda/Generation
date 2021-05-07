@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class ex4aula {
+public class aula202105071511 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// livecode do exercício 4
 		
 		float[][] matriz1 = new float[2][2];
 		float[][] matriz2 = new float[2][2];
