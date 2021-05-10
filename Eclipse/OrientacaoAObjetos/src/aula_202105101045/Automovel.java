@@ -1,6 +1,6 @@
-package aula;
+package aula_202105101045;
 
-public class aula_2021105101043 {
+public class Automovel {
 		// declaração de atributos da classe
 		
 		private String nomeProprietarie;
@@ -10,14 +10,14 @@ public class aula_2021105101043 {
 		
 		//criação do método construtor
 		
-		public aula_2021105101043(String nomeProprietarie,String modelo,String placa,int ano) {
+		public Automovel(String nomeProprietarie,String modelo,String placa,int ano) {
 			this.nomeProprietarie = nomeProprietarie;
 			this.modelo = modelo;
 			this.placa = placa;
 			this.ano = ano;
 		}
 		
-		public aula_2021105101043(int ano) {
+		public Automovel(int ano) {
 			this.ano = ano;
 		}
 		
