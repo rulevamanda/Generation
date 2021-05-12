@@ -1,7 +1,7 @@
 package exercicio2;
 
 public class AnimaisCavalo extends Animais{
-
+	
 	public AnimaisCavalo() {
 		super("cavalo");
 	}
@@ -10,4 +10,8 @@ public class AnimaisCavalo extends Animais{
 	public void som(String som) {
 		System.out.println("relinchando");
 	}
+
+	
+	
+	
 }
