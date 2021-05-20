@@ -1,14 +1,14 @@
 CREATE DATABASE db_e_commerce;
 USE db_e_commerce;
 CREATE TABLE tb_produtos  (
-    id_usuario INT NOT NULL AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT,
     nome VARCHAR(255),
     tamanho VARCHAR(255),
     cor VARCHAR(255),
     embalagem VARCHAR(255),
     valor FLOAT NULL,
-    UNIQUE (id_usuario),
-    PRIMARY KEY (id_usuario)
+    UNIQUE (id),
+    PRIMARY KEY (id)
 );
 
 INSERT INTO tb_produtos (nome, tamanho, cor, embalagem, valor)

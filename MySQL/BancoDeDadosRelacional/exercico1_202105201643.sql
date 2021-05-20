@@ -1,14 +1,14 @@
 CREATE DATABASE db_empresa;
 USE db_empresa;
 CREATE TABLE tb_funcionaries  (
-    id_usuario INT NOT NULL AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT,
     nome VARCHAR(255),
     sobrenome VARCHAR(255),
     nascimento DATE,
     genero VARCHAR(255),
     salario FLOAT NULL,
-    UNIQUE (id_usuario),
-    PRIMARY KEY (id_usuario)
+    UNIQUE (id),
+    PRIMARY KEY (id)
 );
 
 INSERT INTO tb_funcionaries (nome, sobrenome, nascimento, genero, salario)
