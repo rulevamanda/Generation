@@ -5,7 +5,6 @@ import java.util.Optional;
 
 import javax.validation.Valid;
 
-import org.generation.blogPessoal.model.Postagem;
 import org.generation.blogPessoal.model.Tema; //importando o model tema
 import org.generation.blogPessoal.repository.TemaRepository; //importando o repositorio TemaRepository
 import org.generation.blogPessoal.services.TemaServices;
