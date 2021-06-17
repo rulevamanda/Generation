@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,47 +8,76 @@
     <title>meu perfil</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    <h1>rulevaventura</h1>
 
-    <ul>
+<body>
+    <ul id="menu">
         <li>
-            <a href="index.html"> home </a> <!-- target="_blank" para abrir em nova guia -->
+            <a href="index.html"> home </a>
+            <!-- target="_blank" para abrir em nova guia -->
         </li>
         <li>
             <a href="contato.html"> contato </a>
         </li>
     </ul>
 
-    <h2>h2</h2>
-    
-    <h3>h3</h3>
+    <h1>rulevaventura</h1>
 
-    <h4>h4</h4>
-    
-    <h5>h5</h5>
-    
-    <h6>h6</h6>
-    
-    <p class="center">
-        In a hole in the ground there lived a hobbit.
-        Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell,
-        nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat:
-        it was a hobbit-hole, and that means comfort.
-    </p>
-    
-    <img src="assets/img/hobbit hole.jpg" alt="Hobbit hole">
+    <div class="container">
 
-    <h2>Mr. Chickadee</h2>
+        <div class="p-30">
+            <p class="center">
+                In a hole in the ground there lived a hobbit.
+                Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell,
+                nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat:
+                it was a hobbit-hole, and that means comfort.
+            </p>
+        </div>
 
-    <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/s8GP68nLpEY"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-    </iframe>
+        <div>
+            <img
+                class="br-50 wh p-30"
+                src="assets/img/hobbit hole.jpg"
+                alt="Hobbit hole">
+        </div>
+
+    </div>
+
+    <h2 class="center">
+        Mr. Chickadee
+    </h2>
+
+    <div class="container mb-50">
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/s8GP68nLpEY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <hr>
+
+    <footer>
+
+        <div class="container">
+            <a href="https://www.instagram.com/rulevaventura/" target="_blank">
+                <img class="size p-30" src="assets/img/instagram.png" alt="instagram">
+            </a>
+            
+            <a href="rulevaventura.blogspot.com" target="_blank">
+                <img class="size p-30" src="assets/img/blogger.png" alt="blogger">
+            </a>
+            
+        </div>
+        <p class="center">
+            todos os direitos reservados: Amanda Rulevas &copy;
+        </p>
+
+    </footer>
+
 </body>
+
 </html>

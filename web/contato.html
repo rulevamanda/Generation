@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,40 +8,73 @@
     <title>Contato</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    <h1>
-        entre em contato comigo
-    </h1>
 
-    <ul>
+<body>
+    <ul id="menu">
         <li>
-            <a href="index.html"> home </a> <!-- target="_blank" para abrir em nova guia -->
+            <a href="index.html"> home </a>
+            <!-- target="_blank" para abrir em nova guia -->
         </li>
         <li>
             <a href="contato.html"> contato </a>
         </li>
     </ul>
 
-    <form>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">e-mail:</label><br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
-    
-    <h2>Endereço:</h2>
-    <p>Under the Hill, Hobbiton</p>
-    <p>Middle Earth - Arda</p>
+    <h1 class="center">
+        entre em contato comigo
+    </h1>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12600.084463204272!2d175.6732772375476!3d-37.85979634440089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x63a727a549c25050!2sHobbiton%20Village!5e0!3m2!1sen!2sbr!4v1623858023657!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div class="container mb-50">
+        <div>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">e-mail:</label><br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto:</label><br>
+                <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
+
+        <div class="ml-50">
+            <h2>endereço:</h2>
+            <p>Under the Hill, Hobbiton</p>
+            <p>Middle Earth - Arda</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12600.084463204272!2d175.6732772375476!3d-37.85979634440089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x63a727a549c25050!2sHobbiton%20Village!5e0!3m2!1sen!2sbr!4v1623858023657!5m2!1sen!2sbr"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+
+    <hr>
+
+    <footer>
+
+        <div class="container">
+            <a href="https://www.instagram.com/rulevaventura/" target="_blank">
+                <img class="size p-30" src="assets/img/instagram.png" alt="instagram">
+            </a>
+
+            <a href="rulevaventura.blogspot.com" target="_blank">
+                <img class="size p-30" src="assets/img/blogger.png" alt="blogger">
+            </a>
+
+        </div>
+        <p class="center">
+            todos os direitos reservados: Amanda Rulevas &copy;
+        </p>
+
+    </footer>
+
 </body>
+
 </html>
