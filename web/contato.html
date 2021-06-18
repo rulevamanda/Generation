@@ -28,18 +28,18 @@
         <div>
             <form>
                 <label for="nome">Nome:</label><br>
-                <input type="text" id="nome">
-                <br>
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome"></div>
                 <br>
                 <label for="email">e-mail:</label><br>
-                <input type="email" id="email">
-                <br>
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
                 <br>
                 <label for="assunto">Assunto:</label><br>
-                <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+                <textarea name="assunto" id="assunto" cols="30" rows="10" onkeyup="validaAssunto()"></textarea>
+                <div id="txtAssunto"></div>
                 <br>
-                <br>
-                <button>Enviar</button>
+                <button onclick="enviar()">Enviar</button>
             </form>
         </div>
 
@@ -49,7 +49,7 @@
             <p>Middle Earth - Arda</p>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12600.084463204272!2d175.6732772375476!3d-37.85979634440089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x63a727a549c25050!2sHobbiton%20Village!5e0!3m2!1sen!2sbr!4v1623858023657!5m2!1sen!2sbr"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa">
             </iframe>
         </div>
     </div>
@@ -74,6 +74,8 @@
         </p>
 
     </footer>
+
+    <script src="assets/js/script.js"></script>
 
 </body>
 
