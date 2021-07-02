@@ -14,11 +14,11 @@ export class AuthService {
     private http: HttpClient
   ) { }
     entrar(UserLogin:UserLogin): Observable<UserLogin>{
-      return this.http.post<UserLogin>("http://localhost:8080/usuarion/logar", UserLogin)
+      return this.http.post<UserLogin>("http://localhost:8090/usuarios/logar", UserLogin)
     }
 
     cadastrar(user: User): Observable<User>{
-      return this.http.post<User>("http://localhost:8080/usuarios/cadastrar", user) 
+      return this.http.post<User>("http://localhost:8090/usuarios/cadastrar", user) 
     }
   
     logado() {
