@@ -13,6 +13,9 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { ClearComponent } from './clear/clear.component';
 import { TemaComponent } from './tema/tema.component';
+import { EditComponent } from './edit/edit.component';
+import { TemaEditComponent } from './edit/tema-edit/tema-edit.component';
+import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { TemaComponent } from './tema/tema.component';
     CadastrarComponent,
     InicioComponent,
     ClearComponent,
-    TemaComponent
+    TemaComponent,
+    EditComponent,
+    TemaEditComponent,
+    TemaDeleteComponent
   ],
   imports: [
     BrowserModule,
