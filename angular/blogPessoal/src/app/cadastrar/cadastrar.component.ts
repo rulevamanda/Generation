@@ -39,6 +39,7 @@ export class CadastrarComponent implements OnInit {
       alert("as senhas devem ser iguais")
     } else {
       this.authService.cadastrar(this.user).subscribe((resp: User) => {
+        console.log(resp)
         this.user = resp
         this.router.navigate(["/entrar"])
         alert ("Usuário cadastrado com sucesso!")

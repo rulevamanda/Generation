@@ -19,7 +19,7 @@
 
           <div class="form-group">
             <label for="email">email</label>
-            <input [(ngModel)]="user.email" class="form-control" type="email" name="email" id="email" placeholder="digite seu email">
+            <input [(ngModel)]="user.email" class="form-control" type="text" name="email" id="email" placeholder="digite seu email">
           </div>
 
           <div class="form-group">
@@ -33,8 +33,8 @@
           </div>
 
           <div class="form-group">
-            <label [(ngModel)]="user.senha" for="confirmarSenha">confirmar senha</label>
-            <input class="form-control" type="password" name="confirmarSenha" id="confirmarSenha"
+            <label for="confirmarSenha">confirmar senha</label>
+            <input [(ngModel)]="user.senha" class="form-control" type="password" name="confirmSenha" id="confirmSenha"
               placeholder="digite sua senha novamente">
           </div>
 

@@ -11,9 +11,9 @@ import { RodapeComponent } from './rodape/rodape.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { InicioComponent } from './inicio/inicio.component';
-import { ClearComponent } from './clear/clear.component';
+// import { ClearComponent } from './clear/clear.component';
 import { TemaComponent } from './tema/tema.component';
-import { EditComponent } from './edit/edit.component';
+// import { EditComponent } from './edit/edit.component';
 import { TemaEditComponent } from './edit/tema-edit/tema-edit.component';
 import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component';
 
@@ -25,9 +25,9 @@ import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component'
     EntrarComponent,
     CadastrarComponent,
     InicioComponent,
-    ClearComponent,
+    // ClearComponent,
     TemaComponent,
-    EditComponent,
+    // EditComponent,
     TemaEditComponent,
     TemaDeleteComponent
   ],
